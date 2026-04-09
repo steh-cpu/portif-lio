@@ -237,6 +237,26 @@
     .card p {
       color: var(--muted);
       line-height: 1.7;
+      margin-bottom: 20px;
+    }
+
+    .card-button {
+      display: inline-flex;
+      padding: 10px 18px;
+      border-radius: 999px;
+      background: rgba(255, 107, 107, 0.12);
+      color: var(--text);
+      border: 1px solid rgba(255, 107, 107, 0.22);
+      text-decoration: none;
+      font-size: 0.95rem;
+      justify-content: center;
+      transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+    }
+
+    .card-button:hover {
+      transform: translateY(-1px);
+      background: rgba(255, 107, 107, 0.2);
+      border-color: rgba(255, 107, 107, 0.35);
     }
 
     .skills {
@@ -423,7 +443,7 @@
         <p>Desenvolvedora com foco em <i>frontend</i> que unem criatividade, usabilidade e um visual moderno para projetos memoráveis.</p>
         <div class="hero-buttons">
           <a href="#projetos" class="btn">Ver Projetos</a>
-          <a href="https://wa.me/5521966544138" class="btn-outline">Vamos conversar</a>
+          <a href="https://wa.me/5521966544138" class="btn-outline" target="_blank">Vamos conversar</a>
         </div>
       </div>
 
@@ -441,10 +461,11 @@
       <h2>Projetos recentes</h2>
       <div class="projects">
         <div class="card">
-          <img src="Captura de tela 2026-03-26 115126.png" alt="Projeto 1" />
+          <img src="Screenshot 2026-04-09 at 09-45-32 Netflix.png" alt="Projeto 1" />
           <div class="card-content">
             <h3>Site inspirado na 'Netflix'</h3>
             <p>Site com foco em experiência premium e landing page responsiva, apenas para explorar conhecimentos de modelagens de um site de streaming.</p>
+            <a href="https://steh-cpu.github.io/Cloneflix/" class="card-button">ver projeto</a>
           </div>
         </div>
       </div>
@@ -468,9 +489,9 @@
 
         <div class="skill-row">
           <div class="skill-label">JavaScript</div>
-          <div class="skill-value">20%</div>
+          <div class="skill-value">40%</div>
         </div>
-        <div class="bar"><div class="progress" style="width:20%"></div></div>
+        <div class="bar"><div class="progress" style="width:40%"></div></div>
 
         <div class="skill-row">
           <div class="skill-label">GitHub</div>
